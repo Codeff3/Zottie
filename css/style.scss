@@ -83,14 +83,20 @@ nav.desktop li{
 }
 
 nav.desktop a{
-	color: white;
 	text-decoration: none;
 }
 
-nav li.btn-nav{
-	padding: 3px 8px;
-	border-radius: 20px;
-	border: 1px solid white;
+nav li.btn-nav button{
+	text-align: center;
+	width: 200px;
+	height: 50px;
+	color: white;
+	font-size: 16px;
+	cursor: pointer;
+	border: 0;
+	margin-top: 10px;
+	border-radius: 100px;
+	background-color: #ff5f27;
 }
 
 nav.mobile{
@@ -102,9 +108,10 @@ nav.mobile ul{
 	position: absolute;
 	left: 0;
 	width: 100%;
-	padding: 70px 0 30px 0;
+	padding: 100px 0 30px 0;
+	height: 500px;
 	top: 0px;
-	background: #31475e;
+	background: #211310;
 	display:none;
 	text-align: center;
 }
@@ -485,6 +492,11 @@ padding-left: 10px;
 	}
 	div.chamada-header input[type=email]{
 	margin-bottom: 10px;
+	}
+
+	
+	.menu a{
+		display: none;
 	}
 }
 
